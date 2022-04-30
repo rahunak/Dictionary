@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import './home.scss';
 function Home() {
   return (
-    <Fragment className="home">
+    <Fragment >
       <div className="home__wrapper">
         <main className="home__main">
           <h2>Welcome to the Dictionary!</h2>

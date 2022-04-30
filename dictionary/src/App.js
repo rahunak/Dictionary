@@ -5,7 +5,8 @@ import './App.scss';
 import Home from "./pages/Home/home";
 import About from "./pages/About/about";
 import Header from "./components/header/header";
-import Dictionary from './pages/Dictionary/Dictionaty';
+
+import DictionaryContainer from './pages/Dictionary/DictionaryContainer';
 
 function App() {
   return (
@@ -19,7 +20,7 @@ function App() {
 
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="dictionary" element={<Dictionary />} />
+        <Route path="dictionary" element={<DictionaryContainer />} />
         <Route path="about" element={<About />} />
       </Routes>
     </div>

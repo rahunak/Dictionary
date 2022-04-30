@@ -3,7 +3,7 @@ import {Link} from "react-router-dom";
 import "./about.scss";
 function About() {
     return (
-      <Fragment className="about">
+      <Fragment >
         <div className="about__wrapper">
           <main className="about__main">
           <h2>Who are we?</h2>

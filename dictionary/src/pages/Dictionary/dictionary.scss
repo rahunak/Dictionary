@@ -1,12 +1,13 @@
+.dictionary__wrapper{
+    margin-top: 3rem;
+}
 .dictionary__main{
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
 }
-.dictionary__wrapper{
-    margin-top: 3rem;
-}
+
 .searchPanel{
     background-color: coral;
     width: 32rem;
