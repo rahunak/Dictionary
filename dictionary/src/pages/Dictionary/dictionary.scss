@@ -1,15 +1,17 @@
-.dictionary__wrapper{
+.dictionary__wrapper {
     margin-top: 3rem;
 }
-.dictionary__main{
+.dictionary__main {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+
 }
 
-.searchPanel{
-    background-color: coral;
+.searchPanel {
+    border: 2px gray solid;
+    border-radius: 1rem;
     width: 32rem;
     height: 20rem;
     display: flex;
@@ -17,9 +19,9 @@
     align-items: center;
     justify-content: space-evenly;
 }
-.dictionaty__input{
-border: 2px solid burlywood;
+.dictionaty__input {
+    border: 2px solid burlywood;
 }
-.dictionaty__submit{
+.dictionaty__submit {
     background-color: cornflowerblue;
 }
