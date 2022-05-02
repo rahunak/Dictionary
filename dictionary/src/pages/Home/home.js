@@ -1,5 +1,4 @@
 import React, { Fragment } from "react";
-import { Link } from "react-router-dom";
 import './home.scss';
 function Home() {
   return (
@@ -7,11 +6,8 @@ function Home() {
       <div className="home__wrapper">
         <main className="home__main">
           <h2>Welcome to the Dictionary!</h2>
-          <p>You can do this, I believe in you.</p>
+          <p>Дизайна нет поэтому я его слепила из того что было</p>
         </main>
-        <nav>
-          <Link to="/about">About</Link>
-        </nav>
       </div>
     </Fragment>
   );
