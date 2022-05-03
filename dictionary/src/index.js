@@ -6,13 +6,13 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import {HashRouter } from "react-router-dom";
 
-console.log("я подключился");
+console.log("я подключился again");
 const container = document.getElementById('root');
 const root = createRoot(container);
 
 root.render(
   <React.StrictMode>
- 
+ <div>Text in index.js</div>
     <Provider store={store}>
     <HashRouter >
       <App />
