@@ -6,7 +6,7 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import {HashRouter } from "react-router-dom";
 
-
+console.log("я подключился");
 const container = document.getElementById('root');
 const root = createRoot(container);
 
