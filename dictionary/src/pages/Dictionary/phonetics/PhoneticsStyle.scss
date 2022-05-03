@@ -1,0 +1,16 @@
+.phoneticBlock{
+display: flex;
+justify-content: flex-start;
+align-items: center;
+margin-left: 3rem;
+}
+.phoneticBlock__title{
+font-size: 1.6rem;
+}
+.phoneticBlock__btn_play{
+    margin: 0 0.3rem;
+    &:hover{
+       color: rgb(25, 118, 210);
+     
+    }
+}
