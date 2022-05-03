@@ -1,6 +1,6 @@
 import React from "react";
-import DictionarySearchPanel from "./DictionarySearchPanel";
-import ResultPage from "./ResultPage";
+import DictionarySearchPanel from "./dictionarySearchPanel/DictionarySearchPanel";
+import ResultPage from "./ResultPage/ResultPage";
 
 function DictionaryContainer() {
 
