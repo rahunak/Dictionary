@@ -1,10 +1,10 @@
 import React, { Fragment } from "react";
 import { useSelector, } from 'react-redux'
-import { dataWord } from "../../../redux/dictionaryReducer"
+import { dataWord } from "../../../../redux/dictionaryReducer"
 import "./PhoneticsStyle.scss"
 import PlayCircleOutlineIcon from '@mui/icons-material/PlayCircleOutline';
 
-function PhoneticsWord(props) {
+function PhoneticsWord() {
     const { phonetics, phonetic } = useSelector(dataWord);
     function playSound(event, el) {
         new Audio(el.audio).play();
@@ -12,7 +12,7 @@ function PhoneticsWord(props) {
     return (
         <Fragment >
             <figure className="phoneticBlock">
-                <figcaption className="phoneticBlock__title">Listen to {phonetic}:</figcaption>
+                <figcaption className="phoneticBlock__title">Talk like {phonetic}:</figcaption>
                 {
                     phonetics.map((el) => {
                         if (el.audio.length === 0) { return null; }

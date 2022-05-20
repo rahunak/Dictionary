@@ -1,4 +1,8 @@
 import React, { Fragment } from "react";
+import LinkedInIcon from '@mui/icons-material/LinkedIn';
+import GitHubIcon from '@mui/icons-material/GitHub';
+import TelegramIcon from '@mui/icons-material/Telegram';
+import PhoneAndroidIcon from '@mui/icons-material/PhoneAndroid';
 import "./about.scss";
 function About() {
   return (
@@ -20,14 +24,14 @@ function About() {
               <ul className="contacts__list">
                 <h2>Contacts</h2>
                 <li className="contacts__item">
-                  <a href="tel:+375257810998" >Call me</a> or +375 (25) 781-09-98
+                  <a href="tel:+375257810998" ><PhoneAndroidIcon/></a>
                 </li>
-                <li className="contacts__item"><a href="https://www.linkedin.com/in/rahunak/" target="_blank" rel="noopener noreferrer">Linkedin</a></li>
+                <li className="contacts__item"><a href="https://www.linkedin.com/in/rahunak/" target="_blank" rel="noopener noreferrer"><LinkedInIcon/></a></li>
                 <li className="contacts__item">
-                  <a href="https://github.com/rahunak" target="_blank" rel="noopener noreferrer">Git</a>
+                  <a href="https://github.com/rahunak" target="_blank" rel="noopener noreferrer"><GitHubIcon/></a>
                 </li>
                 <li className="contacts__item">
-                  <a href="https://t.me/smallRabbit66" target="_blank" rel="noopener noreferrer">Teltegram</a>
+                  <a href="https://t.me/smallRabbit66" target="_blank" rel="noopener noreferrer"><TelegramIcon/></a>
                 </li>
               </ul>
             </div>
@@ -45,13 +49,13 @@ function About() {
                 <li className="lastProjects__item">
                   <a href=" https://rahunak.github.io/note-editor"
                     target="_blank" rel="noopener noreferrer">
-                    Note Editor
+                    Note Editor (React)
                   </a>
                 </li>
                 <li className="lastProjects__item">
                   <a href="  https://rahunak.github.io/calculator/"
                     target="_blank" rel="noopener noreferrer">
-                    Calculator
+                    Calculator (React)
                   </a>
                 </li>
                 <li className="lastProjects__item">

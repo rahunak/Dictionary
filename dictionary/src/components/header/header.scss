@@ -16,6 +16,9 @@
 }
 .header__ul{
     margin-left: 3rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 .header__li{
     display: inline;
@@ -23,7 +26,10 @@
 }
 .header__link{
     text-decoration: none;
+    font-size: 1.4rem;
+    color: black;
 }
 .logo{
-  margin-right: 3rem;
+  margin-right: 1.5rem;
+  margin-left: 1.5rem;
 }

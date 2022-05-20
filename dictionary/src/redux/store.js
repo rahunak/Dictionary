@@ -1,9 +1,9 @@
-import { configureStore } from '@reduxjs/toolkit'
-import dictionaryReducer from './dictionaryReducer'
+import { configureStore } from '@reduxjs/toolkit';
+import dictionaryReducer from './dictionaryReducer';
 
-export const store = configureStore({
+const store = configureStore({
   reducer: {
-    dictionary: dictionaryReducer
-  }
-})
-window.store=store;
+    dictionary: dictionaryReducer,
+  },
+});
+export default store;
