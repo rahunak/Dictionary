@@ -12,15 +12,16 @@ function App() {
     <div className="App">
 
       <Header />
-      <main className="App__conttent" />
+      <main className='main_content'>
 
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="*" element={<NotFound />} />
         <Route path="dictionary" element={<DictionaryContainer />} />
         <Route path="about" element={<About />} />
-      </Routes>
 
+      </Routes >
+      </main>
     </div>
   );
 }
