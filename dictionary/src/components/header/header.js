@@ -1,14 +1,15 @@
 import { useState } from "react";
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import "./header.scss";
 import Switch from "@mui/material/Switch";
 
-function HeaderLink({ title, path }) {
+function HeaderLink(props) {
+  let { title, path } = props;
   return (
     <li className="header__li">
-      <Link className="header__link" to={path}>
+      <NavLink {...props} className="header__link" to={path} activeclassname='active'>
         {title}
-      </Link>
+      </NavLink>
     </li>
   );
 }

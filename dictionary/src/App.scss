@@ -148,7 +148,22 @@ h1 {
 }
 
 .header__link {
-    text-decoration: underline dotted red;
+    text-decoration: underline dotted transparent;
+    width: 0;
+    transition: ease-in all 300ms;
+
+    &:hover {
+        text-decoration: underline dotted red;
+    }
+    &:active {
+        background-color: #6b3c0d;
+        border-radius: 5px;
+    }
+    &.active {
+
+        text-decoration: underline dotted red;
+
+    }
 }
 
 .contacts__item {
