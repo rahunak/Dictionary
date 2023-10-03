@@ -13,7 +13,7 @@ function App() {
     <div className="App">
 
       <Header />
-      <main className='App__conttent'></main>
+      <main className='main_content'>
 
       <Routes >
 
@@ -23,7 +23,7 @@ function App() {
         <Route path="about" element={<About />} />
 
       </Routes >
-
+      </main>
     </div>
   );
 }
